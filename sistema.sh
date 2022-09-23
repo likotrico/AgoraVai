@@ -24,10 +24,35 @@ do
 		read nome
 		#bash exercicio2.sh $nome
 		;;
-		3) echo "3";;
-		4) echo "4";;
-		5) echo "5";;
-		6) echo "6";;
+	3) echo "Escrava um script que receba como parâmetro o caminho de um diretório e liste seus arquivos e diretórios um a um. Se for um diretório, deve escrever (dir) ao lado do diretório."
+		echo ""
+		echo "Digite um diretório:"
+		read diretorio
+		#bash exercicio3.sh $diretorio
+		;;
+		4) clear
+			echo "Elaborar um script que receba um número como parâmetro e imprima todos os números pares de 0 até o número informado como parâmetro."
+			echo ""
+			echo "Escolha um número"
+			read num
+			#bash exercicio4.sh $num
+			;;
+		5) clear
+			echo "Elaborar um script que receba um nome de arquivo como parâmetro e verifique se esse arquivo existe. Em caso afirmativo, imprimir o seu tamanho em bytes."
+			echo ""
+			echo "Digite um nome de um arquivo:"
+			read arquivo
+			#bash exercicio5.sh $arquivo
+			;;
+		6) echo "Elaborar um script que apresente ao usuário um menu com as seguinte opções:"
+			echo "1-Exibir status da utilização das partições do sistema; (df -h)"
+			echo "2-Exibir relações de usuários logados; (who)"
+			echo "3-Exibir data/hora; (date)"
+			echo "4-Sair"
+			echo ""
+			echo "As linhas acima serão apresentadas aos usuários até que seja escolhida a opção 4(sair). Caso seja escolhida alguma opção entre 1 e 3, serão executados os comandos correspondentes e o resultado da execução será apresentado ao usuário. Caso seja informado algum número que não corresponde às opções de menu disponíveis, exibir tela a mensagem 'Opção não disponível. Tente outra vez'."
+			#bash exercicio6.sh
+			;;
 		7) echo "7";;
 		8) echo "8";;
 		9) echo "9";;
