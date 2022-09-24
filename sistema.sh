@@ -86,8 +86,14 @@ do
 			read num2
 			#bash exercicio11.sh $num1 $operador $num2
 			;;
-		12) echo "12";;
-		13) echo "13";;
+		12) clear
+			echo "Desenvolva um script que apresente na tela os usuários cadastrados no sistema e seus respectivos diretórios home."
+			#bash exercicio12.sh
+			;;
+		13) clear
+			echo "Uma das informações armazenadas no arquivo /etc/passwd é o shell utilizado por cada usuário do sistema (campo 7). Desenvolva um script que informe qual é o shell mais utilizado."
+			#bash exercicio13.sh
+			;;
 		*) echo "ERRO";;
 	esac	
 done
