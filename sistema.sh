@@ -16,13 +16,13 @@ do
 		read num1
 		echo "-Segundo número"
 		read num2
-		#bash exercicio1.sh $num1 $num2
+		bash exercicio1.sh $num1 $num2
 		;;
 	2) echo "Elaborar um script que solicite a informação de um nome de usuário e verifique se o nome informado é um usuário válido do sistema (desconsiderando as diferenças entre maiúsculas e minúsculas)."
 		echo ""
 		echo "Escolha um nome:"
 		read nome
-		#bash exercicio2.sh $nome
+		bash exercicio2.sh $nome
 		;;
 	3) echo "Escrava um script que receba como parâmetro o caminho de um diretório e liste seus arquivos e diretórios um a um. Se for um diretório, deve escrever (dir) ao lado do diretório."
 		echo ""
@@ -35,7 +35,7 @@ do
 			echo ""
 			echo "Escolha um número"
 			read num
-			#bash exercicio4.sh $num
+			bash exercicio4.sh $num
 			;;
 		5) clear
 			echo "Elaborar um script que receba um nome de arquivo como parâmetro e verifique se esse arquivo existe. Em caso afirmativo, imprimir o seu tamanho em bytes."
@@ -51,7 +51,7 @@ do
 			echo "4-Sair"
 			echo ""
 			echo "As linhas acima serão apresentadas aos usuários até que seja escolhida a opção 4(sair). Caso seja escolhida alguma opção entre 1 e 3, serão executados os comandos correspondentes e o resultado da execução será apresentado ao usuário. Caso seja informado algum número que não corresponde às opções de menu disponíveis, exibir tela a mensagem 'Opção não disponível. Tente outra vez'."
-			#bash exercicio6.sh
+			bash exercicio6.sh
 			;;
 		7) clear
 			echo "Todos os semestres a coordenação de Sistemas de Informação exige que o professor repasse a ela os dias em que serão utilizados o laboratório 06. Essas datas baseiam-se nos dias da semana em que são ministradas as aulas. Como nossa disciplina exige o uso intensivo do laboratório, o professor repassa a coordenação todas as datas do semestre letivo em que são ministradas as aulas de TETI, para que possamos utilizar o laboratório 100% do tempo disponível. Esse é um processo trabalhoso, que envolve a busca dessas informações em um calendário e a transcrição das datas para um e-mail que é enviado à coordenação. Para minimizar esse problema, o professor quer que vocês desenvolvam um script que, a partir da informação dos dias da semana em que há aulas de TETI, produza todas as respectivas datas do ano em que serão ministradas nossas aulas."
@@ -65,7 +65,7 @@ do
 			echo "Considere um determinado diretório que possui vários arquivos textos. Esses arquivos possuem nomes variados, não obedecendo a qualquer critério. Escreva um script que renomeie cada arquivo desse diretório, dando ao arquivo o nome correspondente à primeira palavra encontrada no conteúdo do próprio arquivo."
 			echo "Digite um diretório:"
 			read diretorio
-			#bash exercicio8.sh $diretorio
+			bash exercicio8.sh $diretorio
 			;;
 		9) clear
 			echo "Desenvolva um script que receba uma lista de palavras como parâmetros e exiba, como resultado, essas palavras ordenadas."
