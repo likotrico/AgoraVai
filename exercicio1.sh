@@ -1,3 +1,4 @@
+1)
 if [ $1 -lt $2 ]
 then
     echo " $1 é menor que $2 "
