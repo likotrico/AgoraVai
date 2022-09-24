@@ -53,11 +53,39 @@ do
 			echo "As linhas acima serão apresentadas aos usuários até que seja escolhida a opção 4(sair). Caso seja escolhida alguma opção entre 1 e 3, serão executados os comandos correspondentes e o resultado da execução será apresentado ao usuário. Caso seja informado algum número que não corresponde às opções de menu disponíveis, exibir tela a mensagem 'Opção não disponível. Tente outra vez'."
 			#bash exercicio6.sh
 			;;
-		7) echo "7";;
-		8) echo "8";;
-		9) echo "9";;
-		10) echo "10";;
-		11) echo "11";;
+		7) clear
+			echo "Todos os semestres a coordenação de Sistemas de Informação exige que o professor repasse a ela os dias em que serão utilizados o laboratório 06. Essas datas baseiam-se nos dias da semana em que são ministradas as aulas. Como nossa disciplina exige o uso intensivo do laboratório, o professor repassa a coordenação todas as datas do semestre letivo em que são ministradas as aulas de TETI, para que possamos utilizar o laboratório 100% do tempo disponível. Esse é um processo trabalhoso, que envolve a busca dessas informações em um calendário e a transcrição das datas para um e-mail que é enviado à coordenação. Para minimizar esse problema, o professor quer que vocês desenvolvam um script que, a partir da informação dos dias da semana em que há aulas de TETI, produza todas as respectivas datas do ano em que serão ministradas nossas aulas."
+			echo "Escolha a primeira data:"
+			read data1
+			echo "Escolha a segunda data:"
+			read data2
+			#bash exercicio7.sh $data1 $data2
+			;;
+		8) clear
+			echo "Considere um determinado diretório que possui vários arquivos textos. Esses arquivos possuem nomes variados, não obedecendo a qualquer critério. Escreva um script que renomeie cada arquivo desse diretório, dando ao arquivo o nome correspondente à primeira palavra encontrada no conteúdo do próprio arquivo."
+			echo "Digite um diretório:"
+			read diretorio
+			#bash exercicio8.sh $diretorio
+			;;
+		9) clear
+			echo "Desenvolva um script que receba uma lista de palavras como parâmetros e exiba, como resultado, essas palavras ordenadas."
+			#pedir as palavras
+			#bash das palavras
+			;;
+		10) clear
+			echo "Desenvolva um script que receba palavras interativamente e, cada palavra recebida, exiba, como resultado, essas palavras ordenadas. Ao ser informada a palavra 'sair', o script é finalizado."
+			#bash exercicio10.sh
+			;;
+		11) clear
+			echo "Desenvolva um script que realize as operações aritméticas básicas (soma, subtração, divisão e multiplicação), recebendo a operação e os operadores como parâmetros."
+			echo "Escolha o 1º nº: "
+			read num1
+			echo "Escolha o operador: "
+			read operador
+			echo "Escolha o 2º nº: "
+			read num2
+			#bash exercicio11.sh $num1 $operador $num2
+			;;
 		12) echo "12";;
 		13) echo "13";;
 		*) echo "ERRO";;
