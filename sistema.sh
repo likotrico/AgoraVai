@@ -69,8 +69,9 @@ do
 			;;
 		9) clear
 			echo "Desenvolva um script que receba uma lista de palavras como parâmetros e exiba, como resultado, essas palavras ordenadas."
-			#pedir as palavras
-			#bash das palavras
+			echo "Digite as palavras espaçadas:"
+			read array
+			bash exercicio9.sh $array
 			;;
 		10) clear
 			echo "Desenvolva um script que receba palavras interativamente e, cada palavra recebida, exiba, como resultado, essas palavras ordenadas. Ao ser informada a palavra 'sair', o script é finalizado."
