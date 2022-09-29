@@ -28,7 +28,7 @@ do
 		echo ""
 		echo "Digite um diretório:"
 		read diretorio
-		#bash exercicio3.sh $diretorio
+		bash exercicio3.sh $diretorio
 		;;
 		4) clear
 			echo "Elaborar um script que receba um número como parâmetro e imprima todos os números pares de 0 até o número informado como parâmetro."
@@ -42,7 +42,7 @@ do
 			echo ""
 			echo "Digite um nome de um arquivo:"
 			read arquivo
-			#bash exercicio5.sh $arquivo
+			bash exercicio5.sh $arquivo
 			;;
 		6) echo "Elaborar um script que apresente ao usuário um menu com as seguinte opções:"
 			echo "1-Exibir status da utilização das partições do sistema; (df -h)"
@@ -59,7 +59,9 @@ do
 			read data1
 			echo "Escolha a segunda data:"
 			read data2
-			#bash exercicio7.sh $data1 $data2
+			echo "Escolha os dias:"
+			read dias
+			bash exercicio7.sh $data1 $data2 $dias
 			;;
 		8) clear
 			echo "Considere um determinado diretório que possui vários arquivos textos. Esses arquivos possuem nomes variados, não obedecendo a qualquer critério. Escreva um script que renomeie cada arquivo desse diretório, dando ao arquivo o nome correspondente à primeira palavra encontrada no conteúdo do próprio arquivo."
@@ -75,7 +77,7 @@ do
 			;;
 		10) clear
 			echo "Desenvolva um script que receba palavras interativamente e, cada palavra recebida, exiba, como resultado, essas palavras ordenadas. Ao ser informada a palavra 'sair', o script é finalizado."
-			#bash exercicio10.sh
+			bash exercicio10.sh
 			;;
 		11) clear
 			echo "Desenvolva um script que realize as operações aritméticas básicas (soma, subtração, divisão e multiplicação), recebendo a operação e os operadores como parâmetros."
@@ -85,7 +87,7 @@ do
 			read operador
 			echo "Escolha o 2º nº: "
 			read num2
-			#bash exercicio11.sh $num1 $operador $num2
+			bash exercicio11.sh $num1 $operador $num2
 			;;
 		12) clear
 			echo "Desenvolva um script que apresente na tela os usuários cadastrados no sistema e seus respectivos diretórios home."
