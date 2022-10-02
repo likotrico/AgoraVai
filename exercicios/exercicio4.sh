@@ -1,7 +1,5 @@
-echo "Digite um número inteiro: "
-read numero
 i=0
-while [ $i -le $numero ]
+while [ $i -le $1 ]
 do
 aux=`expr $i % 2`
 if [ $aux -eq 0 ]

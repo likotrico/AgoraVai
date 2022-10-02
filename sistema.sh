@@ -7,7 +7,8 @@ do
 	read menu
 	case $menu in
 		0) echo "";;
-		1) echo "Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguinte informações:"
+		1) clear
+			echo "Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguinte informações:"
 		echo "O maior dos números recebidos."
 		echo "O somatório dos números recebidos."
 		echo "Escolha dois números:"
@@ -18,13 +19,15 @@ do
 		read num2
 		bash exercicios/exercicio1.sh $num1 $num2
 		;;
-	2) echo "Elaborar um script que solicite a informação de um nome de usuário e verifique se o nome informado é um usuário válido do sistema (desconsiderando as diferenças entre maiúsculas e minúsculas)."
+	2) clear
+		echo "Elaborar um script que solicite a informação de um nome de usuário e verifique se o nome informado é um usuário válido do sistema (desconsiderando as diferenças entre maiúsculas e minúsculas)."
 		echo ""
 		echo "Escolha um nome:"
 		read nome
 		bash exercicios/exercicio2.sh $nome
 		;;
-	3) echo "Escrava um script que receba como parâmetro o caminho de um diretório e liste seus arquivos e diretórios um a um. Se for um diretório, deve escrever (dir) ao lado do diretório."
+	3) clear
+		echo "Escrava um script que receba como parâmetro o caminho de um diretório e liste seus arquivos e diretórios um a um. Se for um diretório, deve escrever (dir) ao lado do diretório."
 		echo ""
 		echo "Digite um diretório:"
 		read diretorio
